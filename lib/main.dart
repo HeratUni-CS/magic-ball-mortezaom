@@ -3,7 +3,23 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     const MaterialApp(
-      home: null,
+      title: "Magic Ball",
+      home: BallPage(),
     ),
   );
+}
+
+class BallPage extends StatelessWidget {
+  const BallPage({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("Ask Me Anything"),
+      ),
+      backgroundColor: Colors.blue,
+      body: Container(),
+    );
+  }
 }
