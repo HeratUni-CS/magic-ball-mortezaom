@@ -23,6 +23,7 @@ class BallPage extends StatelessWidget {
       ),
       backgroundColor: Colors.blue,
       body: const Ball(),
+      
     );
   }
 }
